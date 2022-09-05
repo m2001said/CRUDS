@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #222;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.crud {
+  width: 80%;
+  /* //to center it  */
+  margin: auto;
+}
+.head {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem 0;
+}
+input {
+  width: 100%;
+  height: 2rem;
+  outline: none;
+  border: none;
+  background: #111;
+  margin: 4px;
+  border-radius: 4px;
+  padding: 4px;
+  color: #fff;
+}
+input:focus {
+  background: #000;
+  transform: scale(1.1);
+}
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#total {
+  width: 30rem;
+  background: #a10808;
+  padding: 0.3rem;
+  border-radius: 4px;
+}
+#total::before {
+  content: "Total : ";
+}
+button {
+  margin: 4px;
+  width: 100%;
+  height: 3rem;
+  border: none;
+  cursor: pointer;
+  background: #390053;
+  color: #fff;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+button:hover {
+  background: #51025f;
+  letter-spacing: 1px;
+}
+.btnSearch button {
+  width: 45%;
+}
+.btnSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#deleteAll {
+  margin: 1rem 0;
+}
+table {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+table th {
+  text-transform: uppercase;
+}
+th,
+td {
+  padding: 5px;
+}
+@media (max-width: 890px) {
+  table {
+    font-size: 0.7rem;
+  }
+}
