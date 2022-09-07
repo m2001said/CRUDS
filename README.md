@@ -1,5 +1,7 @@
 # CRUDS (Create Read Update Delete Search)
 
+### [live Demo](https://m2001said.github.io/CRUDS/)
+
 ## In this app you can use it to store your data like if you have a mobile store :
 - so you can add mobiles by their names or categories.
 - you can create numbers of mobile by count input.
